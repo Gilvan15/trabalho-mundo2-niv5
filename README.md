@@ -7,9 +7,16 @@
 
 ## Steps:
 
-- 1º Instale o mongodb como servidor local em seu pc.
+- 1º Instale o mongodb como servidor de banco de dados local em seu pc.
 - após a instalaçãodo do mongodb, crie a pasta "data" no diretório raiz do pc. "C:\md data"
-- execulte o CLI no prompt cmd para subir o servidor local do mongodb: "mongod --dbpath C:\data"
+- execulte o CLI no prompt cmd para subir o servidor de banco de dados local do mongodb: "mongod --dbpath C:\data"
+- logo em seguida acesse a pasta "Livro-servidor"  e starte a API das aplicações em node.Js Express.js.
+
+## Livro-Servidor-API
+
+- Para startar a aplicação Livro-Servidor-api em Node.Js, siga as etapas abaixo:
+- 1º npm install
+- 2º npm start
 
 ## React-JS
 

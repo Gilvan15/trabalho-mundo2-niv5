@@ -53,6 +53,7 @@ export default function LivroDados() {
                         <label htmlFor="titulo">Titulo</label>
                         <input
                             type="text"
+                            required
                             className="form-control"
                             id="titulo"
                             name='titulo'
@@ -65,6 +66,7 @@ export default function LivroDados() {
                             className="form-control"
                             id="resumo"
                             name='resumo'
+                            required
                             onChange={(evento) => setResumo(evento.target.value)}
                         ></textarea>
                     </div>
@@ -84,6 +86,7 @@ export default function LivroDados() {
                             className="form-control"
                             id="autores"
                             name='autores'
+                            required
                             onChange={(evento) => setAutores(evento.target.value)}
                         ></textarea>
                     </div>
